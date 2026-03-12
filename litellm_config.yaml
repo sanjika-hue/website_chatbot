@@ -1,0 +1,19 @@
+model_list:
+  - model_name: claude-3-haiku-20240307
+    litellm_params:
+      model: openai/claude-3-haiku-20240307
+      api_base: https://27cogjxmfwscfl-8000.proxy.runpod.net/v1
+      api_key: sk-27cogjxmfwscfl
+  - model_name: claude-3-5-sonnet-20241022
+    litellm_params:
+      model: openai/claude-3-5-sonnet-20241022
+      api_base: https://27cogjxmfwscfl-8000.proxy.runpod.net/v1
+      api_key: sk-27cogjxmfwscfl
+  - model_name: claude-3-5-haiku-20241022
+    litellm_params:
+      model: openai/claude-3-5-haiku-20241022
+      api_base: https://27cogjxmfwscfl-8000.proxy.runpod.net/v1
+      api_key: sk-27cogjxmfwscfl
+
+general_settings:
+  master_key: sk-local-proxy-key

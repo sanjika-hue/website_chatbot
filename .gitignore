@@ -21,6 +21,19 @@ groups/global/*
 # Secrets
 *.keys.json
 .env
+.env.local
+
+# Test output files
+out.txt
+response.json
+runpod-response.json
+runpod-response-openai.json
+
+# Local Claude settings
+.claude/settings.local.json
+
+# Tastebud (separate repo)
+tastebud/
 
 # Temp files
 .tmp-*
