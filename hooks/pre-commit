@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Pre-commit hook: syntax check staged Python files
+set -euo pipefail
+
+STAGED=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.py$' || true)
+
+if [ -z "$STAGED" ]; then
+  exit 0
+fi
+
+echo "🔍 Checking Python syntax..."
+for f in $STAGED; do
+  python3 -c "import ast; ast.parse(open('$f').read())" || {
+    echo "❌ Syntax error in $f"
+    exit 1
+  }
+done
+
+echo "✅ Pre-commit checks passed."

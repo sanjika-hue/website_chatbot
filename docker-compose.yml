@@ -1,0 +1,16 @@
+services:
+  tastebud:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - tastebud-data:/app/data
+      - chroma-cache:/root/.cache/chroma
+    env_file:
+      - .env
+    restart: unless-stopped
+
+volumes:
+  tastebud-data:
+  chroma-cache:
