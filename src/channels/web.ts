@@ -99,7 +99,9 @@ export class WebChannel implements Channel {
 
       if (req.method === 'POST' && url.pathname === '/create-session') {
         let body = '';
-        req.on('data', (chunk) => { body += chunk; });
+        req.on('data', (chunk) => {
+          body += chunk;
+        });
         req.on('end', () => {
           try {
             const { userId, userName = 'User' } = JSON.parse(body) as {
@@ -118,7 +120,9 @@ export class WebChannel implements Channel {
             const existing = this.opts.registeredGroups()[chatJid];
             if (existing) {
               res.writeHead(200, { 'Content-Type': 'application/json' });
-              res.end(JSON.stringify({ ok: true, chatJid, already_existed: true }));
+              res.end(
+                JSON.stringify({ ok: true, chatJid, already_existed: true }),
+              );
               return;
             }
 
@@ -136,19 +140,20 @@ export class WebChannel implements Channel {
             fs.mkdirSync(groupDir, { recursive: true });
             const claudeMd = path.join(groupDir, 'CLAUDE.md');
             if (!fs.existsSync(claudeMd)) {
-              fs.writeFileSync(claudeMd,
+              fs.writeFileSync(
+                claudeMd,
                 `# Personal Assistant for ${userName}\n\n` +
-                `You are a helpful personal AI assistant for ${userName}, embedded in the Hashtee website.\n\n` +
-                `## What you can do\n` +
-                `- Answer questions about Hashtee and its products\n` +
-                `- Answer general knowledge questions\n` +
-                `- Help draft text, emails, or messages\n` +
-                `- Remember preferences across conversations\n\n` +
-                `## Rules\n` +
-                `- NEVER pretend to open pages or perform actions you cannot actually do\n` +
-                `- If asked to navigate somewhere, give the direct link instead (e.g. hashteelab.com/about)\n` +
-                `- Be concise, honest, and friendly\n` +
-                `- Do not make up information\n`
+                  `You are a helpful personal AI assistant for ${userName}, embedded in the Hashtee website.\n\n` +
+                  `## What you can do\n` +
+                  `- Answer questions about Hashtee and its products\n` +
+                  `- Answer general knowledge questions\n` +
+                  `- Help draft text, emails, or messages\n` +
+                  `- Remember preferences across conversations\n\n` +
+                  `## Rules\n` +
+                  `- NEVER pretend to open pages or perform actions you cannot actually do\n` +
+                  `- If asked to navigate somewhere, give the direct link instead (e.g. hashteelab.com/about)\n` +
+                  `- Be concise, honest, and friendly\n` +
+                  `- Do not make up information\n`,
               );
             }
 
@@ -165,7 +170,9 @@ export class WebChannel implements Channel {
 
       if (req.method === 'POST' && url.pathname === '/query') {
         let body = '';
-        req.on('data', (chunk) => { body += chunk; });
+        req.on('data', (chunk) => {
+          body += chunk;
+        });
         req.on('end', async () => {
           try {
             const { prompt, sessionId = 'default' } = JSON.parse(body) as {
@@ -177,15 +184,21 @@ export class WebChannel implements Channel {
               res.end(JSON.stringify({ error: 'prompt is required' }));
               return;
             }
-            logger.info({ sessionId, prompt: prompt.slice(0, 80) }, 'Hashtee agent query');
+            logger.info(
+              { sessionId, prompt: prompt.slice(0, 80) },
+              'Hashtee agent query',
+            );
             // Forward to tastebud which has full embeddings + ChromaDB RAG
-            const tastebudUrl = process.env.TASTEBUD_URL || 'http://localhost:8000';
+            const tastebudUrl =
+              process.env.TASTEBUD_URL || 'http://localhost:8000';
             const tastebudRes = await fetch(`${tastebudUrl}/query`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ prompt, sessionId }),
             });
-            const tastebudData = await tastebudRes.json() as { reply: string };
+            const tastebudData = (await tastebudRes.json()) as {
+              reply: string;
+            };
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end(JSON.stringify({ reply: tastebudData.reply, sessionId }));
           } catch (e) {
