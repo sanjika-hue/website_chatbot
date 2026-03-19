@@ -1,8 +1,8 @@
 import http from 'http';
 import https from 'https';
 const PORT = 4000;
-const RUNPOD_URL = 'https://vh1eq50f5dbuvr-8000.proxy.runpod.net/v1/chat/completions';
-const RUNPOD_KEY = 'sk-vh1eq50f5dbuvr';
+const RUNPOD_URL = 'https://xo74rgyr22vur8-8000.proxy.runpod.net/v1/chat/completions';
+const RUNPOD_KEY = 'sk-xo74rgyr22vur8';
 const ACTUAL_MODEL_NAME = 'meta-llama/Meta-Llama-3-8B-Instruct';
 // ─── FIX 1: Flatten Anthropic multi-part content into plain text ──────────────
 // RunPod's OpenAI-compatible server only accepts simple string content.
