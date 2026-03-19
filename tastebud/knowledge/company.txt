@@ -1,0 +1,9 @@
+title: About Hashtee
+
+Hashtee is an industrial AI company that builds custom AI systems for large enterprise clients. Founded with a mission to bring practical AI to the factory floor, Hashtee specializes in deploying AI where it matters most — on the production line, in warehouses, and across retail operations. Their solutions span Computer Vision, Document AI, Audio AI, Augmented Reality, and Retail Analytics. Hashtee's clients include Maruti Suzuki, Aditya Birla, Schneider Electric, ITT, Mubea, and Pantaloons. Hashtee works closely with clients to understand their specific operations and builds tailored AI models — not generic products. Every deployment is custom-fitted to the client's environment, cameras, data, and workflow.
+
+---
+
+title: Why Choose Hashtee
+
+Why choose Hashtee? What makes Hashtee better than others? What makes you better? Is it worth it? Is this worth the investment? How is Hashtee different from traditional systems? What are the advantages of using Hashtee? Why should I trust you? Hashtee builds fully custom AI — not off-the-shelf software. Every model is trained on the client's own data, cameras, and machines, so it works accurately in that specific environment. Unlike generic tools, Hashtee's solutions integrate directly into the client's existing setup — existing cameras, existing CCTV, existing ERPs — so there's no need to rip out old infrastructure. Clients see real results: Mubea achieves zero defective springs, Aditya Birla reduced a 20-30 day manual process to minutes, Maruti Suzuki identifies faulty engine components without disassembly. Hashtee handles everything end-to-end — data collection, model training, deployment, and ongoing monitoring — so the client doesn't need an in-house AI team. The key advantages over manual inspection or traditional systems: AI runs 24/7 without fatigue, catches defects humans miss, reacts faster than manual processes, and learns from new data over time.

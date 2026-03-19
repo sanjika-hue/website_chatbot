@@ -1,0 +1,27 @@
+title: Obi - AI Sound Monitoring Product
+
+Obi is Hashtee's AI-powered sound monitoring product for industrial machines. If you want to monitor machines without sensors, predict breakdowns, or detect machine health issues, Obi is the solution. How it works: A microphone is placed near the machine. Obi continuously captures audio and runs it through an AI model that was trained specifically on the normal sounds of that machine. When the audio deviates from normal — bearing wear, impact events, abnormal vibrations, cavitation — Obi raises an alert. Key benefit: 24 to 72 hours early warning before breakdown occurs. This allows planned maintenance instead of emergency repairs. No sensors or wiring modifications needed — just a microphone. This makes installation fast and non-invasive. Use cases: Rotating machinery (motors, pumps, compressors), conveyor belts, HVAC systems, vehicle engine diagnostics, elevator maintenance. Industries: Manufacturing, automotive, energy, logistics. Deployed at Maruti Suzuki for engine noise detection on warranty claims — identifies the exact faulty component from the engine sound without disassembly.
+
+---
+
+title: Dodo - Machine Vision Quality Inspection Product
+
+Dodo is Hashtee's machine vision product for automated quality inspection on production lines. If you have quality issues, defects, rejected items, rejection rate increased, output is poor, missing defects during manual inspection, or need to inspect products on your production line, Dodo is the solution. How it works: A camera (IP, USB, or GigE) is placed at the inspection point. Dodo's AI model analyzes each item in real time, detecting defects visually and automatically classifying items as pass or fail. Speed: Sub-millisecond defect detection — under 50ms per part. Dodo works 24/7 without fatigue, unlike human inspectors. Works with any standard IP, USB, or GigE camera — no proprietary hardware needed. Defect types detected: Scratches, dents, surface damage, broken filaments, cross defects, oily stains, shade variation, dimensional deviations, label misalignment, fill level errors. Industries: Manufacturing, textile, automotive, pharma, food packaging, PCB inspection. Deployed at Aditya Birla Grasim (yarn cone inspection), ITT (precision steel valve inspection), and Mubea (automotive spring inspection — 12-13 defect types, zero defective parts guarantee).
+
+---
+
+title: Binbin - WIP Tracking and Retail Intelligence Product
+
+Binbin is Hashtee's work-in-progress tracking product that uses existing CCTV cameras. How it works: Binbin connects to the client's existing camera network. Using object re-identification AI, it assigns a unique ID to each item or person and tracks them across all camera views — no RFID, no barcodes, no new hardware needed. In manufacturing: Tracks items (trays, boxes, pallets, parts) as they move through production stages. Gives a live dashboard of where everything is and how long each stage is taking. Identifies bottlenecks. In retail (retail intelligence mode): Assigns unique IDs to shoppers. Delivers path analysis (where shoppers go), dwell time (how long at each section), queue monitoring, and crowd density maps. Key advantage: Zero new hardware required. Uses cameras the client already has. No barcodes, no RFID tags, no modifications to products. Deployed at Pantaloons for multi-camera shopper tracking across retail store floors.
+
+---
+
+title: Pechi - AI Chatbot and Agentic Assistant Product
+
+Pechi is Hashtee's AI chatbot product designed for enterprise customer-facing and internal use. Pechi goes beyond a simple FAQ bot — it can take actions: query databases, trigger workflows, process transactions, and integrate with existing business systems. Language support: English, Hindi, and Tamil — making it suitable for Indian enterprise deployments where multiple languages are needed. Use cases: Customer service (handling queries, complaints, bookings), internal HR helpdesk, supplier communication, patient scheduling, student admissions processing, retail customer assistance. Pechi is fully custom — trained and configured for each client's specific domain, product catalog, and business rules. It is not a generic chatbot.
+
+---
+
+title: Longlichi - OCR and Document AI Product
+
+Longlichi is Hashtee's OCR and document AI product that extracts structured data from documents. How it works: Documents (PDFs, images, photos) go in — Longlichi extracts specific fields and outputs structured JSON that can feed directly into ERPs, databases, or other systems. Speed: 500 documents per minute in batch mode. Handles: Dispatch notes, garment tags, number plates, invoices, vendor PDFs, prescription forms, customs declarations, handwritten and printed text. Beyond basic OCR: Longlichi also understands the meaning of what it reads. For example, it can compare extracted vendor scheme data, calculate final discounts, and flag inconsistencies — not just copy text. Deployed at Aditya Birla Opus Paints: reads vendor PDFs, extracts scheme data, compares schemes, calculates discounts. Reduced a 20-30 day manual process to minutes.

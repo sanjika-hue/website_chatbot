@@ -1,0 +1,9 @@
+title: Hashtee Services and Capabilities
+
+Hashtee builds custom AI systems for factories and enterprises — solving real problems like catching defects, predicting machine failures, tracking items through production, reading documents automatically, and understanding retail shopper behavior. Every solution is trained on the client's own data and environment, not generic software. Hashtee handles everything end-to-end: data collection, model training, deployment, and ongoing monitoring. Clients don't need an in-house AI team — Hashtee manages it all.
+
+---
+
+title: AI Tools, Models and Technology Stack
+
+Hashtee builds and deploys custom AI models trained specifically for each client — never off-the-shelf software. For defect detection (Dodo), we train computer vision models on the client's own defect images — the model learns exactly what a bad part looks like in that specific factory. For machine health monitoring (Obi), we train audio AI models on the actual sounds of the client's machines — so the model knows what "normal" sounds like and alerts on anything abnormal. For production tracking (Binbin), we use object re-identification AI that recognises and follows items across multiple cameras without barcodes or RFID. For document extraction (Longlichi), we use document AI models that read invoices, tags, and PDFs and output structured data directly into ERPs. For chatbots (Pechi), we use large language models with tool-use capabilities — not just FAQ bots, but agents that can query databases and trigger workflows. All models run on edge devices or cloud, depending on latency requirements.

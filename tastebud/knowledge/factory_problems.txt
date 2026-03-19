@@ -1,0 +1,21 @@
+title: Common Factory and Production Problems Hashtee Solves
+
+Rejection rate increased. Output is poor. Production is inconsistent. Things not running smoothly. Losing money due to production issues. Missing defects during manual checking. Everything looks fine but quality is dropping. Cannot figure out where defects are coming from. For product quality problems, high rejection rate, or defects — Dodo is the solution. It visually inspects every product automatically, catching defects before they reach the customer. For machine problems, unexpected stops, random failures, machines not running smoothly — Obi is the solution. It listens to machines and gives early warning before a breakdown. For production flow issues, not knowing where items are, production stages taking too long — Binbin tracks every item through the production line using existing cameras. Together, Dodo + Obi + Binbin solve most factory problems: quality, machine health, and production visibility.
+
+---
+
+title: Machine Failure, Breakdown Prevention and Predictive Maintenance
+
+Machine failure, unexpected breakdown, machines stopping suddenly, equipment failing, machines making weird sounds, strange vibrations — these are problems Hashtee solves with Obi. Obi listens to machines using a microphone and detects early signs of trouble — unusual sounds, vibrations, or wear — before a breakdown happens. It gives 24 to 72 hours of warning before a machine fails, so teams can schedule maintenance instead of dealing with a sudden stoppage. This prevents unplanned downtime, reduces emergency repair costs, and keeps production running smoothly. No sensors or wiring changes needed — just a microphone placed near the machine. Used at Maruti Suzuki to detect faulty engine components by sound alone, without opening the engine.
+
+---
+
+title: ROI, Business Value, Cost Savings and Investment Worth
+
+Is Hashtee worth the investment? What ROI can I expect? How will this save money? Will this reduce manpower? Is your solution worth it? What savings can I expect? How does this help my business financially? Hashtee's solutions deliver measurable ROI by reducing three main costs: defect costs, downtime costs, and manual labour costs. Defect reduction: Dodo catches defective products before they ship, cutting rework, returns, and customer complaints. Mubea achieved zero defective springs reaching Maruti Suzuki. Downtime reduction: Obi gives 24-72 hours early warning before machine failure, so maintenance is planned instead of emergency — emergency repairs cost 3-5x more than planned ones. Labour savings: Dodo replaces manual visual inspection which runs 24/7 without breaks, while Longlichi reduced a 20-30 day manual process at Aditya Birla to minutes. The exact ROI depends on factory scale, number of machines/cameras, and current defect/downtime rates — best to discuss directly at hashteelab.com/contact.
+
+---
+
+title: Setup, Integration, Implementation and Deployment
+
+How long does setup take? Do I need special equipment? Is it easy to integrate? What about maintenance? Hashtee handles the full setup — data collection, model training, deployment, and ongoing monitoring. The client does not need an in-house AI team. Setup typically involves: installing cameras or microphones at the right points, collecting initial data from the client's environment, training the AI model, and going live. Timeline depends on the complexity — simpler deployments can go live in a few weeks, larger custom systems take longer. No special hardware needed for most solutions: Dodo works with any standard IP, USB, or GigE camera. Obi just needs a microphone near the machine. Binbin uses existing CCTV cameras. After deployment, Hashtee provides ongoing monitoring and support to ensure the system keeps performing accurately.
